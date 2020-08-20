@@ -3,6 +3,7 @@ node_modules
 client/node_modules
 client/dist
 /dist
+nohup.out
 
 # local env files
 .env.local
