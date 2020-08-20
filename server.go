@@ -5,6 +5,7 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	"html/template"
 	"io"
+	"net/http"
 )
 
 type Template struct {
@@ -45,6 +46,11 @@ func startWebServer() {
 		if he, ok := err.(*echo.HTTPError); ok {
 			c.JSON(he.Code, err)
 		}
+	}
+
+	// Render 404 page
+	echo.NotFoundHandler = func(c echo.Context) error {
+		return c.Render(http.StatusNotFound, "404.html", "")
 	}
 
 	// Serve the routes
