@@ -15,7 +15,7 @@ cleanup
 
 # If only backend is needed
 echo "# Starting on the setup"
-npm --prefix ./web run build
+npm --prefix ./client run build
 go run *.go
 
 # Cleanup when using ctrl + C
