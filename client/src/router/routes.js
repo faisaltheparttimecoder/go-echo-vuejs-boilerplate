@@ -4,7 +4,7 @@ export default [
     {
         path: '/',
         component: home,
-        name: 'HelloWorld'
+        name: 'home'
     },
     {
         path: '/second',
