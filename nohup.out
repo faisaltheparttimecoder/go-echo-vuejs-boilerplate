@@ -1,0 +1,83 @@
+server.go:4:2: cannot find package "github.com/labstack/echo/v4" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/labstack/echo/v4 (from $GOROOT)
+	/Users/fali/go/src/github.com/labstack/echo/v4 (from $GOPATH)
+server.go:5:2: cannot find package "github.com/labstack/echo/v4/middleware" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/labstack/echo/v4/middleware (from $GOROOT)
+	/Users/fali/go/src/github.com/labstack/echo/v4/middleware (from $GOPATH)
+logger.go:5:2: cannot find package "github.com/sirupsen/logrus" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/sirupsen/logrus (from $GOROOT)
+	/Users/fali/go/src/github.com/sirupsen/logrus (from $GOPATH)
+server.go:4:2: cannot find package "github.com/labstack/echo/v4" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/labstack/echo/v4 (from $GOROOT)
+	/Users/fali/go/src/github.com/labstack/echo/v4 (from $GOPATH)
+server.go:5:2: cannot find package "github.com/labstack/echo/v4/middleware" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/labstack/echo/v4/middleware (from $GOROOT)
+	/Users/fali/go/src/github.com/labstack/echo/v4/middleware (from $GOPATH)
+logger.go:5:2: cannot find package "github.com/sirupsen/logrus" in any of:
+	/Users/fali/sdk/go1.14.4/src/github.com/sirupsen/logrus (from $GOROOT)
+	/Users/fali/go/src/github.com/sirupsen/logrus (from $GOPATH)
+go: finding module for package github.com/labstack/echo/v4
+go: finding module for package github.com/sirupsen/logrus
+go: finding module for package github.com/labstack/echo/v4/middleware
+go: found github.com/labstack/echo/v4 in github.com/labstack/echo/v4 v4.1.16
+go: found github.com/sirupsen/logrus in github.com/sirupsen/logrus v1.6.0
+# command-line-arguments
+./server.go:54:31: undefined: IsSettingEmpty
+time="2020-08-20 13:42:44" level=debug msg="Starting the echo instance and serving the API traffic" file="server.go:29"
+panic: html/template: pattern matches no files: `public/views/*.html`
+
+goroutine 1 [running]:
+html/template.Must(...)
+	/Users/fali/sdk/go1.14.4/src/html/template/template.go:372
+main.startWebServer()
+	/Users/fali/Documents/Projects/go-echo-vuejs-boilerplate/server.go:39 +0x3f0
+main.main()
+	/Users/fali/Documents/Projects/go-echo-vuejs-boilerplate/server.go:19 +0x25
+exit status 2
+time="2020-08-20 13:42:55" level=debug msg="Starting the echo instance and serving the API traffic" file="server.go:29"
+panic: html/template: pattern matches no files: `public/views/*.html`
+
+goroutine 1 [running]:
+html/template.Must(...)
+	/Users/fali/sdk/go1.14.4/src/html/template/template.go:372
+main.startWebServer()
+	/Users/fali/Documents/Projects/go-echo-vuejs-boilerplate/server.go:39 +0x3f0
+main.main()
+	/Users/fali/Documents/Projects/go-echo-vuejs-boilerplate/server.go:19 +0x25
+exit status 2
+time="2020-08-20 13:43:16" level=debug msg="Starting the echo instance and serving the API traffic" file="server.go:29"
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.16
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8082
+signal: interrupt
+time="2020-08-20 13:43:25" level=debug msg="Starting the echo instance and serving the API traffic" file="server.go:29"
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.16
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8082
+signal: interrupt
+time="2020-08-20 14:19:21" level=debug msg="Starting the echo instance and serving the API traffic" file="server.go:29"
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.16
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:8082
+signal: interrupt
